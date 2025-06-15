@@ -1,0 +1,91 @@
+{
+    "astro.updateImportsOnFileMove.enabled": true,
+    "astro.trace.server": "messages",
+    "editor.unicodeHighlight.nonBasicASCII": true,
+    "workbench.externalBrowser": "edge, chrome, firefox",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.enableImages": true,
+    "terminal.integrated.suggest.enabled": true,
+    "editor.unicodeHighlight.includeComments": true,
+    "github-enterprise.uri": "https://elparadisogonzalo.github.io",
+    "prettier.withNodeModules": false,
+    "prettier.useEditorConfig": false,
+    "terminal.integrated.shellIntegration.enabled": false,
+    "terminal.integrated.suggest.runOnEnter": "always"
+  // 📐 Editor Basics
+  "editor.fontSize": 10,
+  "editor.lineHeight": 22,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "all",
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+
+  // 🧠 IntelliSense + Hints
+  "editor.inlayHints.enabled": "on",
+  "editor.inlayHints.padding": true,
+  "editor.parameterHints.enabled": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.inlineSuggest.enabled": true,
+
+  // 🎨 Theme & Appearance
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": 1,
+  "editor.bracketPairColorization.enabled": true,
+
+  // 💾 Auto Save + Formatting
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+
+  // 🔌 Terminal & Shell
+  "terminal.integrated.fontSize": 10,
+  "terminal.integrated.shellArgs.windows": ["-NoLogo"],
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+
+  // 🔎 File & Folder UX
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/dist": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
+  },
+
+  // 📦 JavaScript / TypeScript / Web3
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "all",
+
+  // 🔁 Git & Version Control
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  // 🧪 Notebook / Jupyter / IPFS
+  "notebook.output.lineHeight": 1.4,
+  "notebook.cellToolbarLocation": {
+    "default": "right"
+  },
+
+  // 🚀 Performance & Extensions
+  "extensions.ignoreRecommendations": false,
+  "security.workspace.trust.untrustedFiles": "open",
+
+  // 🧾 Solidity Support
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity"
+  }
+}
+
+}

@@ -1,17 +1,18 @@
 {
-    "astro.updateImportsOnFileMove.enabled": true,
-    "astro.trace.server": "messages",
-    "editor.unicodeHighlight.nonBasicASCII": true,
-    "workbench.externalBrowser": "edge, chrome, firefox",
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
-    "terminal.integrated.enableImages": true,
-    "terminal.integrated.suggest.enabled": true,
-    "editor.unicodeHighlight.includeComments": true,
-    "github-enterprise.uri": "https://elparadisogonzalo.github.io",
-    "prettier.withNodeModules": false,
-    "prettier.useEditorConfig": false,
-    "terminal.integrated.shellIntegration.enabled": false,
-    "terminal.integrated.suggest.runOnEnter": "always"
+  "astro.updateImportsOnFileMove.enabled": true,
+  "astro.trace.server": "messages",
+  "editor.unicodeHighlight.nonBasicASCII": true,
+  "workbench.externalBrowser": "edge, chrome, firefox",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.enableImages": true,
+  "terminal.integrated.suggest.enabled": true,
+  "editor.unicodeHighlight.includeComments": true,
+  "github-enterprise.uri": "https://elparadisogonzalo.github.io",
+  "prettier.withNodeModules": false,
+  "prettier.useEditorConfig": false,
+  "terminal.integrated.shellIntegration.enabled": false,
+  "terminal.integrated.suggest.runOnEnter": "always",
+
   // 📐 Editor Basics
   "editor.fontSize": 10,
   "editor.lineHeight": 22,
@@ -60,32 +61,4 @@
     "**/dist": true
   },
 
-  // 📦 JavaScript / TypeScript / Web3
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "prettier.singleQuote": true,
-  "prettier.semi": false,
-  "prettier.trailingComma": "all",
-
-  // 🔁 Git & Version Control
-  "git.enableSmartCommit": true,
-  "git.autofetch": true,
-  "git.confirmSync": false,
-
-  // 🧪 Notebook / Jupyter / IPFS
-  "notebook.output.lineHeight": 1.4,
-  "notebook.cellToolbarLocation": {
-    "default": "right"
-  },
-
-  // 🚀 Performance & Extensions
-  "extensions.ignoreRecommendations": false,
-  "security.workspace.trust.untrustedFiles": "open",
-
-  // 🧾 Solidity Support
-  "[solidity]": {
-    "editor.defaultFormatter": "JuanBlanco.solidity"
-  }
-}
-
-}
+  // 📦 JavaScript / TypeScript

@@ -20,5 +20,4 @@ This dApp connects to **Ethereum** and **Binance Smart Chain (BSC)** using Web3,
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone git@github.com:Elparadisogonzalo/Smart-contract-gonzalo.git
-cd assets
+git clone git@github.com:Elparadisogonzalo/elparadisogonzalo.git
